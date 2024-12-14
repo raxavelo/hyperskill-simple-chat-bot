@@ -1,0 +1,21 @@
+<div class="step-text">
+<p>You already know how to write simple single-line JavaScript programs that output a line of text to the console. This is an achievement in itself, but real programs contain many lines—from tens to hundreds for small scripts to several thousand for larger projects. After completing this topic, you will know how to print several lines of text to the console.</p><h5 id="example">Example</h5><p>Let's start with an example of such scripts. The following code prints three lines of text, each on a new line:</p><pre><code class="language-javascript">console.log("I");
+console.log("know");
+console.log("JavaScript");</code></pre><p>A line break can also be inserted using the <code class="language-javascript">\n</code> symbol:</p><pre><code class="language-javascript">console.log("I\nknow\nJavaScript");</code></pre><p>The output of these two code samples will be the same:</p><pre><code class="language-no-highlight">I
+know
+JavaScript</code></pre><p>Try running these statements in your browser console to verify that they produce the same output.</p><h5 id="empty-line">Empty line</h5><p>The <code class="language-javascript">console.log</code> function also allows you to output an empty string without any information in it or call the function without an argument. Then, the function will only output a newline:</p><pre><code class="language-javascript">console.log("I");
+console.log("");
+console.log("know");
+console.log();
+console.log("JavaScript");</code></pre><p>Here's the output:</p><pre><code class="language-no-highlight">I
+
+know
+
+JavaScript</code></pre><p>Notice that both <code class="language-javascript">()</code> and <code class="language-javascript">("")</code> produce the same result.</p><p style="text-align: start;">One last thing: inserting an empty line in your code doesn't change the output:</p><pre><code class="language-javascript">console.log("What")
+
+console.log("about")
+
+console.log("you?")</code></pre><p>The above code prints:</p><pre><code class="language-no-highlight">What
+about
+you?</code></pre><h5 id="conclusion">Conclusion</h5><p>In this topic, we learned how to split text into lines using different methods. One way is by using <code class="language-javascript">console.log()</code> for each line. Another way is by inserting <code class="language-javascript">\n</code> inside a single <code class="language-javascript">console.log()</code> call to create multiple lines. Knowing these techniques is essential because, in larger projects, they help us organize code more effectively and improve our code's readability. However, programming is not limited to creating text outputs. In the upcoming topics, we will explore more advanced multi-line programming techniques in JavaScript.</p>
+</div>
